@@ -1,6 +1,5 @@
 "use client"
 
-import { StringRule } from "sanity"
 import {usePreview} from "../lib/sanity.preview"
 import BlogList from "./BlogList"
 

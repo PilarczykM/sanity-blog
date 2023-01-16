@@ -12,7 +12,7 @@ interface Props {
   };
 }
 
-export const revalidate = 600 // Revalidate pages every 10 min
+export const revalidate = 60 // Revalidate pages every 10 min
 
 // Create SSG pages passing slugs to NextJS passing it to params. 
 export async function generateStaticParams() {

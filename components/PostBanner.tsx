@@ -46,7 +46,7 @@ function PostBanner({ post }: Props) {
                 />
                 <h3 className="text-lg font-bold">{post.author.name}</h3>
               </div>
-              <div>{/* TODO: Author BIO */}BIO</div>
+              <div>{post.author.bio[0].children[0].text}</div>
             </div>
           </div>
           <div>

@@ -1,5 +1,3 @@
-import Image from "next/image";
-import urlFor from "../lib/urlFor";
 import { Post } from "../typings";
 import BlogListItem from "./BlogListItem";
 import ClientSideRoute from "./ClientSideRoute";
